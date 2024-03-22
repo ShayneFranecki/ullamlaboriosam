@@ -1,0 +1,62 @@
+{
+  "name": "ullamlaboriosam",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ShayneFranecki/ullamlaboriosam.git",
+  "authors": [
+    "Francisco Presencia <public@francisco.io>"
+  ],
+  "description": "Lightweight and intuitive javascript library",
+  "main": "umbrella.min.js",
+  "keywords": [
+    "veniam",
+    "js",
+    "voluptas",
+    "ajax",
+    "quis",
+    "dolores",
+    "jquery",
+    "eaque"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShayneFranecki/ullamlaboriosam.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShayneFranecki/ullamlaboriosam.git"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "grunt": "^0.4.5",
+    "grunt-bytesize": "^0.1.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-markdown": "^0.7.0",
+    "grunt-mocha-phantomjs": "^2.0.1",
+    "grunt-semistandard": "^1.0.6",
+    "marked": "^0.3.5",
+    "mocha-phantomjs": "^4.0.2",
+    "phantomjs": "^1.9.8"
+  },
+  "semistandard": {
+    "ignore": [
+      "umbrella.js",
+      "polyfill.js",
+      "**/test.js",
+      "**/jquery.js",
+      "**/chai.js",
+      "**/sinon.js",
+      "**/mocha.js",
+      "**/*.min.js"
+    ],
+    "globals": [
+      "u",
+      "ajax",
+      "parseJson"
+    ]
+  },
+  "author": "EltaSwaniawski"
+}
